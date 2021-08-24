@@ -1,0 +1,36 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\definecolor{mycolor1}{rgb}{0.00000,0.44700,0.74100}%
+%
+\begin{tikzpicture}
+
+\begin{axis}[%
+width=6.028in,
+height=4.754in,
+at={(1.011in,0.642in)},
+scale only axis,
+xmin=1,
+xmax=10,
+ymin=1,
+ymax=10,
+axis background/.style={fill=white}
+]
+\addplot [color=mycolor1,solid,forget plot]
+  table[row sep=crcr]{%
+1	1\\
+2	2\\
+3	3\\
+4	4\\
+5	5\\
+6	6\\
+7	7\\
+8	8\\
+9	9\\
+10	10\\
+};
+\end{axis}
+\end{tikzpicture}%
